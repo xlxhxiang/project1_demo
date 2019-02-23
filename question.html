@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- text will be display on browser tab -->
 	<title>Top Song Game Demo</title>
+	<!-- link style.css to this html file -->
 	<link rel="stylesheet" type="text/css" href="./resources/css/style.css">
 </head>
 
 <body>
-	<div class="game_wrapper_question" style="">
+	<!-- game_wrapper class : the full screen game container div
+	side_by_side class: set child elements(two a element) horizentally display -->
+	<div class="game_wrapper side_by_side">
 
+		<!-- left side button
+		half_size_div class: set it to half size of parent element  -->
 		<a href="left.html" class="half_size_div">
-			<div class="left_div" style="background-image: url(./resources/media/images/Bono_Edge.jpg);">
+			<div class="half_img_div full_bg_img" style="background-image: url(./resources/media/images/Bono_Edge.jpg);">
 			</div>
 		</a>
 
 		<a href="right.html" class="half_size_div">
-			<div class="left_div half_size_div" style="background-image: url(./resources/media/images/The_Police.jpg);">
+			<div class="half_img_div full_bg_img" style="background-image: url(./resources/media/images/The_Police.jpg);">
 			</div>
 		</a>
 		
